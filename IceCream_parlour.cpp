@@ -45,7 +45,7 @@ int main()
         {
             cout << "Your goodname: " << ends;
             cin >> name;
-            cout << "Contact" << ends;
+            cout << "Contact No." << ends;
             cin >> contact;
             cout << "Billing details: " << endl;
             cout << "Base Price= " << x * 64 << endl;
@@ -99,7 +99,7 @@ int main()
         {
             cout << "Your goodname: " << ends;
             cin >> name;
-            cout << "Contact" << ends;
+            cout << "Contact No." << ends;
             cin >> contact;
             cout << "Billing details: " << endl;
             cout << "Base Price= " << x * 49 << endl;
@@ -107,7 +107,7 @@ int main()
             cout << "Sgst=" << x * 49 * 0.05 << endl;
             cout << "Total payable amount= " << x * 49 + x * 49 * 0.1 << endl;
             ofstream fout;
-            fout.open("ice cream@Adi.txt");
+            fout.open("ice cream@Atul.txt");
             char str[100] = "\t\t\t\t\t INVOICE\n\t\t\t\t\t Fantastic IceCream Parlor\n\t\t\t\t\t Jalandhar Punjab\n\t\t\t\t\tGSTIN:1234567890\nContact:";
             fout << str;
             fout << contact;
