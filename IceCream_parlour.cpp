@@ -6,28 +6,27 @@ Reg No:-11907275
 using namespace std;
 void top()
 {
-    cout << "\t\t\t\t\t\t\t\t\t\t\t\t\t Mob:7261092128" << endl;
-    cout << "\t\t\t\t\t    IceCream Portal" << endl;
-    cout << "\t\t\t\t\t   Geeks IceCream Parlor" << endl;
-    cout << "\t\t\t\t\tThe best Icecream in the city!" << endl;
-    cout << "\n\n\t\t\t\t\t In Stock Items " << endl
+    cout << "\t\t\t\t\t\t\t\t Mob:6280073851" << endl;
+    cout << "\t\t\t    IceCream Portal" << endl;
+    cout << "\t\t\t   Geeks IceCream Parlor" << endl;
+    cout << "\t\t\tThe best Icecream in the city!" << endl;
+    cout << "\n\n\t\t\t\t Avaliable Items " << endl
          << endl;
 }
 int main()
 {
-    system("color C");
     char name[20];
     int contact;
     float x;
     top();
-    cout << setw(5) << "Sr.no:" << setw(15) << "Flavour's" << setw(15) << "\tVolume(in mL)" << setw(15) << "Quantity" << setw(15) << "Price(in Rs.)" << endl;
-    cout << setw(5) << "1" << setw(15) << "Butterscotch" << setw(15) << "250" << setw(15) << "23" << setw(15) << "  64" << endl;
-    cout << setw(5) << "2" << setw(15) << "Chocolate" << setw(15) << "300" << setw(15) << "28" << setw(15) << "  49" << endl;
-    cout << setw(5) << "3" << setw(15) << "Strawberry" << setw(15) << "275" << setw(15) << "34" << setw(15) << "  59" << endl;
-    cout << setw(5) << "4" << setw(15) << "Vanilla" << setw(15) << "200" << setw(15) << "40" << setw(15) << "  44" << endl;
-    cout << setw(5) << "5" << setw(15) << "Pistabadam" << setw(15) << "200" << setw(15) << "20" << setw(15) << "  75" << endl;
-    cout << setw(5) << "6" << setw(15) << "Dryfruit" << setw(15) << "250" << setw(15) << "25" << setw(15) << "  80" << endl;
-    cout << setw(5) << "7" << setw(15) << "Exit" << endl;
+    cout << setw(3) << "Sr.no:" << setw(15) << "Flavour's" << setw(15) << "\t\tVolume(in mL)" << setw(15) << "Quantity" << setw(15) << "\tPrice(in Rs.)" << endl;
+    cout << setw(3) << "1" << setw(20) << "Butterscotch" << setw(18) << "250" << setw(15) << "23" << setw(15) << "  64" << endl;
+    cout << setw(3) << "2" << setw(17) << "Chocolate" << setw(21) << "300" << setw(15) << "28" << setw(15) << "  49" << endl;
+    cout << setw(3) << "3" << setw(18) << "Strawberry" << setw(20) << "275" << setw(15) << "34" << setw(15) << "  59" << endl;
+    cout << setw(3) << "4" << setw(15) << "Vanilla" << setw(23) << "200" << setw(15) << "40" << setw(15) << "  44" << endl;
+    cout << setw(3) << "5" << setw(18) << "Pistabadam" << setw(20) << "200" << setw(15) << "20" << setw(15) << "  75" << endl;
+    cout << setw(3) << "6" << setw(16) << "Dryfruit" << setw(22) << "250" << setw(15) << "25" << setw(15) << "  80" << endl;
+    cout << setw(3) << "7" << setw(12) << "Exit" << endl;
     int m;
     cout << "Press the serial number of desired flavour: " << ends;
     cin >> m;
@@ -51,7 +50,7 @@ int main()
             cout << "Base Price= " << x * 64 << endl;
             cout << "Cgst=" << x * 64 * 0.05 << endl;
             cout << "Sgst=" << x * 64 * 0.05 << endl;
-            cout << "Total payable amount=" << x * 64 + x * 64 * 0.1 << endl;
+            cout << "Total payable amount = " << x * 64 + x * 64 * 0.1 << endl;
             ofstream fout;
             fout.open("ice cream@Atul.txt");
             char str[100] = "\t\t\t\t\t INVOICE\n\t\t\t\t\t Fantastic IceCream Parlor\n\t\t\t\t\t Jalandhar Punjab\n\t\t\t\t\tGSTIN:1234567890\nContact:";
