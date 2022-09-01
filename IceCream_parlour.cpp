@@ -34,12 +34,12 @@ int main()
     switch (m)
     {
     case 1:
-        cout << "\n\t\t\t\tYou selected Butterscotch" << endl;
+        cout << "\n\t\t\t\tYou selected Butterscotch !!!" << endl;
         cout << "\nEnter the desired quantity: " << ends;
         cin >> x;
         if (x > 23)
         {
-            cout << "Sorry only 23 pcs available";
+            cout << "Sorry only 23 pcs available :(";
         }
         else
         {
@@ -88,7 +88,7 @@ int main()
         }
         break;
     case 2:
-        cout << "\n\t\t\t\tYou selected Chocolate" << endl;
+        cout << "\n\t\t\t\tYou selected Chocolate !!!" << endl;
         cout << "\nEnter the desired quantity :" << ends;
         cin >> x;
         if (x > 28)
@@ -129,7 +129,7 @@ int main()
             fout << str3;
             float k = x * 49 * 0.05;
             fout << k;
-            char str4[30] = "\nTotal payable amount =";
+            char str4[30] = "\nTotal payable amount =  ";
             fout << str4;
             float l = i + j + k;
             fout << l;
@@ -142,12 +142,12 @@ int main()
         }
         break;
     case 3:
-        cout << "\n\t\t\t\tYou selected Strawberry" << endl;
+        cout << "\n\t\t\t\tYou selected Strawberry !!!" << endl;
         cout << "\nEnter the desired quantity : " << ends;
         cin >> x;
         if (x > 34)
         {
-            cout << "Sorry only 34 pcs available";
+            cout << "Sorry only 34 pcs available :(";
         }
         else
         {
@@ -161,7 +161,7 @@ int main()
             cout << "Sgst=" << x * 59 * 0.05 << endl;
             cout << "Total payable amount = " << x * 59 + x * 59 * 0.1 << endl;
             ofstream fout;
-            fout.open("ice cream@Adi.txt");
+            fout.open("ice cream@Atul.txt");
             char str[100] = "\t\t\t\t\t INVOICE\n\t\t\t\t\t Fantastic IceCream Parlor\n\t\t\t\t\t Jalandhar Punjab\n\t\t\t\t\tGSTIN:1234567890\nContact:";
             fout << str;
             fout << contact;
@@ -201,7 +201,7 @@ int main()
         cin >> x;
         if (x > 40)
         {
-            cout << "Sorry only 40 pcs available";
+            cout << "Sorry only 40 pcs available :(";
         }
         else
         {
@@ -304,12 +304,12 @@ int main()
         }
         break;
     case 6:
-        cout << "\n\t\t\t\tYou selected Dryfruit" << endl;
+        cout << "\n\t\t\t\tYou selected Dryfruit !!!" << endl;
         cout << "\nEnter the desired quantity" << ends;
         cin >> x;
         if (x > 25)
         {
-            cout << "Sorry only 25 pcs available";
+            cout << "Sorry only 25 pcs available :(";
         }
         else
         {
